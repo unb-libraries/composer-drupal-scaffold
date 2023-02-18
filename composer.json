@@ -1,0 +1,19 @@
+{
+  "name": "unb-libraries/composer-drupal-scaffold",
+  "description": "Metapackage for building Drupal instances in Dockworker",
+  "type": "metapackage",
+  "require": {
+    "composer/installers": "v2.2.0",
+    "cweagans/composer-patches": "1.7.3",
+    "drush/drush": "^11",
+    "webmozart/path-util": "2.3.0"
+  },
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "UNB Libraries",
+      "email": "libsupport@unb.ca"
+    }
+  ]
+}
